@@ -13,6 +13,15 @@
     border-radius: 16px;
 }
 
+p {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
 /* header section syles */
 .header-container {
     margin-top: 50px;
@@ -114,12 +123,8 @@
 }
 
 .welcome-party-content p {
-    color: #ffffffcc;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
     margin-bottom: 48px;
+    color: #ffffffcc;
 }
 
 .welcome-party-content a {
@@ -180,9 +185,6 @@
     align-items: center;
 }
 
-/* .best-offer > div{
-    width: 30%;
-} */
 .best-offer-details {
     width: 395px;
 }
@@ -203,12 +205,7 @@
 }
 
 .best-offer-details p {
-    color: #07021199;
-    font-family: Inter;
     margin-top: 22px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
 }
 
 .best-offer-img {
@@ -232,15 +229,6 @@
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
-}
-
-.best-offer-reason p {
-    color: #07021199;
-    margin-bottom: 45px;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
 }
 
 /* discount section styles */
@@ -268,14 +256,6 @@
 
 .discount-details h1 span {
     color: #F00;
-}
-
-.discount-details p {
-    color: #07021199;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
 }
 
 .discount-images {
@@ -333,19 +313,81 @@
     margin-bottom: 22px;
 }
 
-.product-gallery-details p {
-    color: #07021199;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-}
-
-.product-gallery-images .image-row{
+.product-gallery-images .image-row {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
-.product-gallery-images .image-row img{
+
+.product-gallery-images .image-row img {
     width: 424px;
 }
+
+/* newsletter styles */
+
+.newsletter {
+    background-color: #ff00000d;
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-details {
+    width: 895px;
+}
+
+.newsletter-details img {
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+.newsletter-details h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.newsletter-details .newsletter-subcribe-form{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-details .newsletter-subcribe-form form{
+    margin-top: 25px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;border-radius: 50px;
+    width: 70%;
+}
+
+.newsletter-details .newsletter-subcribe-form form .email {
+    padding: 25px;
+    border-radius: 50px 0 0 50px;
+    margin-right: 0;
+    border: none;
+    outline: none;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter-details .newsletter-subcribe-form form .subscribe {
+    margin-left: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 24px 70px;
+    color: white;
+    color: #FFF;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newsletter-details .newsletter-subcribe-form form .subscribe:hover{
+    cursor: pointer;
+}
+
