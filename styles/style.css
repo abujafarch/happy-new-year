@@ -231,6 +231,10 @@ p {
     margin-bottom: 16px;
 }
 
+.best-offer-reason p{
+    margin-bottom: 45px;
+}
+
 /* discount section styles */
 .discount-details {
     text-align: center;
@@ -350,16 +354,17 @@ p {
     margin-bottom: 25px;
 }
 
-.newsletter-details .newsletter-subcribe-form{
+.newsletter-details .newsletter-subcribe-form {
     display: flex;
     justify-content: center;
 }
 
-.newsletter-details .newsletter-subcribe-form form{
+.newsletter-details .newsletter-subcribe-form form {
     margin-top: 25px;
     background-color: #FFF;
     display: flex;
-    justify-content: space-between;border-radius: 50px;
+    justify-content: space-between;
+    border-radius: 50px;
     width: 70%;
 }
 
@@ -387,7 +392,61 @@ p {
     font-weight: 600;
 }
 
-.newsletter-details .newsletter-subcribe-form form .subscribe:hover{
+.newsletter-details .newsletter-subcribe-form form .subscribe:hover {
     cursor: pointer;
 }
 
+/* footer styles */
+footer {
+    background-color: #000000;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+.footer .address-contact {
+    padding: 120px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .address-contact p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer .address-contact .contact{
+    margin-right: 150px;
+}
+
+.footer .social-links {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social-links a {
+    margin-right: 25px;
+    width: 60px;
+}
+
+.footer .all-right {
+    padding: 50px 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .all-right p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
