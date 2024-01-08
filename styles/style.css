@@ -340,3 +340,12 @@
     font-weight: 400;
     line-height: 32px;
 }
+
+.product-gallery-images .image-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.product-gallery-images .image-row img{
+    width: 424px;
+}
