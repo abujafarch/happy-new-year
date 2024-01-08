@@ -105,14 +105,20 @@ p {
     height: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .welcome-party-content {
-    width: 700px;
-    padding-left: 125px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
 }
 
-.welcome-party-content h1 {
+.welcome-party-details{
+    width: 750px;
+}
+.welcome-party-details h1 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -122,12 +128,12 @@ p {
     margin-bottom: 25px;
 }
 
-.welcome-party-content p {
+.welcome-party-details p {
     margin-bottom: 48px;
     color: #ffffffcc;
 }
 
-.welcome-party-content a {
+.welcome-party-details a {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
