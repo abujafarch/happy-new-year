@@ -459,3 +459,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
 }
+.footer .all-right p a{
+    color: #FFF;
+    text-decoration: none;
+}
