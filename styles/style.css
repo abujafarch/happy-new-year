@@ -242,3 +242,101 @@
     font-weight: 400;
     line-height: 32px;
 }
+
+/* discount section styles */
+.discount-details {
+    text-align: center;
+    width: 1065px;
+    margin: 0 auto;
+}
+
+.discount-details h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-details h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.discount-details h1 span {
+    color: #F00;
+}
+
+.discount-details p {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.discount-images {
+    margin-top: 65px;
+}
+
+.absolute-imges {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.gift-box {
+    width: 780px;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: -220px;
+}
+
+.discount-tag {
+    position: absolute;
+    margin-left: 780px;
+    margin-bottom: 105px;
+    width: 220px;
+}
+
+.happy-customer {
+    margin-left: auto;
+    width: 430px;
+}
+
+.rectangle-red {
+    width: 100%;
+}
+
+/* product gallery styles */
+.product-gallery-details {
+    margin-bottom: 50px;
+    width: 895px;
+}
+
+.product-gallery-details h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.product-gallery-details h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.product-gallery-details p {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
